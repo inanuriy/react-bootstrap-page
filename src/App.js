@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import NavRB from './react-bootstrap/NavRB';
+import MainRB from './react-bootstrap/MainRB';
+import CardRB from './react-bootstrap/CardsRB';
+import NavRS from './react-strap/NavRS'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavRB />
+      <MainRB />
+      <CardRB />
+      <hr></hr>
+      <NavRS />
     </div>
   );
 }

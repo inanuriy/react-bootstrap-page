@@ -1,0 +1,41 @@
+.jumboBody {
+    height: 500px;
+    background-image: url(https://miro.medium.com/max/2770/1*5Jv5YAGqu3zL5endb8dtBA.png);
+    background-size: cover;
+}
+
+.jumboOpacity {
+    background: rgba(156, 80, 80, 0.2);;
+}
+.jumboText {
+    color: rgb(103, 204, 238);
+    font-weight: 900;
+    font-size: 50px;
+    padding: 50px 0 40px 0;
+}
+
+.jumboP {
+    color: white;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.jumboV {
+    color: grey;
+    padding-top: 10px;
+}
+
+.buttonSpace {
+    margin-right: 20px;
+    width: 200px;
+}
+
+.versionButton {
+    margin-right: 20px;
+}
+
+.logoSize {
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
