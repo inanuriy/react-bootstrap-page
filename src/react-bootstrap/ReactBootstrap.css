@@ -4,9 +4,6 @@
     background-size: cover;
 }
 
-.jumboOpacity {
-    background: rgba(156, 80, 80, 0.2);;
-}
 .jumboText {
     color: rgb(103, 204, 238);
     font-weight: 900;
